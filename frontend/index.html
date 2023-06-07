@@ -69,9 +69,10 @@
             width: 1200px;
             margin: 20px auto 20px auto;
         }
-        .mypost{
+
+        .mypost {
             /* background-color: green; */
-            
+
             /* 중앙에 위치하도록 */
             width: 500px;
             margin: 20px auto 20px auto;
@@ -81,7 +82,8 @@
             /* 그림자넣기 */
             box-shadow: 0px 0px 3px 0px gray;
         }
-        .mybtn{
+
+        .mybtn {
             display: flex;
             /* flex-direction: column; */
             flex-direction: row;
@@ -90,43 +92,31 @@
 
             margin-top: 20px;
         }
-        .mybtn > button {
+
+        .mybtn>button {
             margin-right: 10px;
+        }
+
+        .mytemp {
+            margin: 20px auto 20px 20px;
         }
     </style>
     <script>
-        // console.log('hello world')
+        $(document).ready(function () {
+            fetch("http://spartacodingclub.shop/sparta_api/weather/seoul").then(res => res.json()).then(data => {
+                // console.log(data['temp'])
+                
+                // 서울 온도 데이터 변수 선언
+                // seoul_temp = data['temp']
+                let seoul_temp = data['temp']
 
-        // let a = 2  숫자
-        // let b = 3
-        // console.log(a+b) // 5
-
-        // let a = 'apple'  // 문자
-        // let b = 'apple'
-        
-        // let a = '사과'
-        // let b = '귤'
-        // console.log(a+b) // 사과귤
-
-        // let a = ['사과','수박','딸기','귤']
-        // console.log(a) // ['사과','수박','딸기','귤']
-        // console.log(a[0]) // 사과
-        // console.log(a[1]) // 수박
-        // console.log(a.length) // 4 . a의 요소가 몇개인지
-        
-        // 딕셔너리
-        // let a = {'name' : '영수', 'age' : 27}
-        // console.log(a)
-        // console.log(a['name']) // 영수
-
-        let a = [
-            {'name' : '영수', 'age' : 27},
-            {'name' : '철수', 'age' : 15},
-            {'name' : '영희', 'age' : 20}
-        ]
-        console.log(a)
-        console.log(a[0]['name']) // 영수
-        console.log(a[1]['age']) // 15
+                // 삽입할 HTML 형식 정의
+                // html_temp = `현재 서울의 날씨 : ${seoul_temp}도`
+                
+                // 서울 온도 데이터를 넣기
+                $('#temp').text(seoul_temp)
+            })
+        })
     </script>
 </head>
 
@@ -134,6 +124,9 @@
     <div class="mytitle">
         <h1>내 생에 최고의 영화들</h1>
         <button onclick="hey()">영화 기록하기</button>
+    </div>
+    <div class="mytemp">
+        현재 서울의 날씨 : <span id="temp">20</span>도
     </div>
     <div class="mypost">
         <div class="form-floating mb-3">
@@ -143,10 +136,10 @@
         <div class="input-group mb-3">
             <label class="input-group-text" for="inputGroupSelect01">별점</label>
             <select class="form-select" id="inputGroupSelect01">
-              <option selected> -- 선택하기 -- </option>
-              <option value="1">⭐</option>
-              <option value="2">⭐⭐</option>
-              <option value="3">⭐⭐⭐</option>
+                <option selected> -- 선택하기 -- </option>
+                <option value="1">⭐</option>
+                <option value="2">⭐⭐</option>
+                <option value="3">⭐⭐⭐</option>
             </select>
         </div>
         <div class="form-floating">
