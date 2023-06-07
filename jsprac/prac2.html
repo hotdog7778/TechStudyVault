@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fetch 시작하기</title>
+
+    <!-- 제이쿼리 사용시 필요한 코드 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+        // fetch("여기에 URL을 입력").then(res => res.json()).then(data => {
+        //     console.log(data)
+        // })
+        fetch("http://spartacodingclub.shop/sparta_api/seoulair").then(res => res.json()).then(data => {
+            // console.log(data) // URL에서 데이터를 가져와서 콘솔로그에 찍는다.
+            
+            // row의 0번째를 조회해보자
+            // console.log(data['RealtimeCityAir']['row'][0])
+
+            // 반복문 활용
+            let rows = data['RealtimeCityAir']['row']
+            rows.forEach( (a) => {
+                // console.log(a)
+                // console.log(a['MSRSTE_NM']) // 구 이름만 출력
+                console.log(a['MSRSTE_NM'],a['IDEX_MVL']) // 구 이름, 미세먼지 수치 출력
+                
+            })
+        
+
+        })
+    </script>
+
+</head>
+
+<body>
+    Fetch 연습을 위한 페이지
+</body>
+
+</html>
