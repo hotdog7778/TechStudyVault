@@ -1,5 +1,5 @@
 from pymongo import MongoClient
-client = MongoClient('mongodb+srv://sparta:test@cluster0.zlnt7r2.mongodb.net/?retryWrites=true&w=majority')
+#client = MongoClient('mongodb+srv://sparta:test@cluster0.zlnt7r2.mongodb.net/?retryWrites=true&w=majority')
 db = client.dbsparta 
 
 # 내 몽고DB 에서 영화 "슈가: 로드 투 디데이"의 평점 가져오기

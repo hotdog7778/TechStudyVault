@@ -1,6 +1,6 @@
 # pymongo 라이브러리로 몽고DB에 붙는 방법
 from pymongo import MongoClient
-client = MongoClient('mongodb+srv://sparta:test@cluster0.zlnt7r2.mongodb.net/?retryWrites=true&w=majority')
+#client = MongoClient('mongodb+srv://sparta:test@cluster0.zlnt7r2.mongodb.net/?retryWrites=true&w=majority')
 #client = MongoClient('mongodb+srv://<user>:<pass>@cluster0.zlnt7r2.mongodb.net/?retryWrites=true&w=majority')
 db = client.dbsparta
 

@@ -1,5 +1,5 @@
 from pymongo import MongoClient
-client = MongoClient('mongodb+srv://sparta:test@cluster0.zlnt7r2.mongodb.net/?retryWrites=true&w=majority')
+#client = MongoClient('mongodb+srv://sparta:test@cluster0.zlnt7r2.mongodb.net/?retryWrites=true&w=majority')
 db = client.dbsparta
 
 import requests
