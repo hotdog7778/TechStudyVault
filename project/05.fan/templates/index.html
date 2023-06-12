@@ -79,12 +79,18 @@
             });
         }
         function save_comment() {
+            let name = $('#name').val()
+            let comment = $('#comment').val()
+
             let formData = new FormData();
-            formData.append("sample_give", "샘플데이터");
+            // formData.append("sample_give", "샘플데이터");
+            formData.append("name_give", name);
+            formData.append("comment_give", comment);
 
             fetch('/guestbook', { method: "POST", body: formData, }).then((res) => res.json()).then((data) => {
                 //console.log(data)
                 alert(data["msg"]);
+                window.location.reload()
             });
         }
         function show_comment() {
