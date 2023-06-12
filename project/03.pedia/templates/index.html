@@ -97,7 +97,7 @@
             fetch('/movie').then((res) => res.json()).then((data) => {
                 // console.log(data)
                 // alert(data['msg'])
-                
+
                 let rows = data['result']
                 $('#cards-box').empty() // 시작 전 카드박스를 지워주기
 
@@ -107,6 +107,9 @@
                     let title = a['title']
                     let desc = a['desc']
                     let image = a['image']
+                    let star = a['star']
+                    // start의 숫자만큼 별 아이콘을 만들어주는 방법
+                    let star_repeat = '⭐'.repeat(star)
                     // console.log(comment,title,desc,image)
 
                     // 카드박스를 만들어야 한다.
@@ -117,7 +120,7 @@
                                             <div class="card-body">
                                                 <h5 class="card-title">${title}</h5>
                                                 <p class="card-text">${desc}</p>
-                                                <p>⭐⭐⭐</p>
+                                                <p>${star_repeat}</p>
                                                 <p class="mycomment">${comment}</p>
                                             </div>
                                         </div>
@@ -132,12 +135,14 @@
             // URL 과 코멘트 작성한 것을 찾아와야 합니다.
             let url = $('#url').val() // url 이란 인풋 태그에서 가져옴
             let comment = $('#comment').val() // comment 이란 인풋 태그에서 가져옴
+            let star = $('#star').val()
 
             // FormData 에 url과 코멘트를 태워 보내자
             let formData = new FormData();
             // formData.append("sample_give", "샘플데이터");
             formData.append("url_give", url);
             formData.append("comment_give", comment);
+            formData.append("star_give", star);
 
             fetch('/movie', { method: "POST", body: formData }).then((res) => res.json()).then((data) => {
                 // console.log(data)
@@ -164,6 +169,17 @@
         <div class="form-floating mb-3">
             <input id="url" type="email" class="form-control" placeholder="name@example.com">
             <label>영화URL</label>
+        </div>
+        <div class="input-group mb-3">
+            <label class="input-group-text" for="inputGroupSelect01">별점</label>
+            <select class="form-select" id="star">
+                <option selected>-- 선택하기 --</option>
+                <option value="1">⭐</option>
+                <option value="2">⭐⭐</option>
+                <option value="3">⭐⭐⭐</option>
+                <option value="4">⭐⭐⭐⭐</option>
+                <option value="5">⭐⭐⭐⭐⭐</option>
+            </select>
         </div>
         <div class="form-floating">
             <textarea id="comment" class="form-control" placeholder="Leave a comment here"></textarea>

@@ -19,6 +19,7 @@ def movie_post():
     # print(sample_receive)
     url_receive = request.form['url_give']
     comment_receive = request.form['comment_give']
+    star_receive = request.form['star_give']
 
     # 받아온 URL을 기반으로 크롤링을 해야한다.
     headers = {'User-Agent' : 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36'}
@@ -35,7 +36,8 @@ def movie_post():
         'desc':ogdesc,
         'image':ogimage,
         #'url':url_receive,
-        'comment':comment_receive,
+        'star':star_receive,
+        'comment':comment_receive
     }
 
     db.movies.insert_one(doc)
