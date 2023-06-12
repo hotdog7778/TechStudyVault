@@ -93,16 +93,37 @@
       $(document).ready(function () {
         show_bucket();
       });
+
       function show_bucket() {
         fetch('/bucket').then(res => res.json()).then(data => {
-                console.log(data)
-								alert(data["msg"]);
+                // console.log(data)
+				// alert(data["msg"]);
+                let rows = data['result']
+                // console.log(rows)
+
+                $('#bucket-list').empty()
+
+                rows.forEach((a) => {
+                    let bucket = a['bucket']
+                    // console.log(bucket)
+                    
+                    let temp_html = `<li>
+                                        <h2>✅ ${bucket}</h2>
+                                    </li>`
+                
+                    $('#bucket-list').append(temp_html)
+
+                });
+
             })
       }
 
       function save_bucket() {
+        let bucket = $('#bucket').val()
+        
         let formData = new FormData();
-        formData.append("sample_give", "샘플데이터");
+        
+        formData.append("bucket_give", bucket);
 
         fetch('/bucket', {method: "POST",body: formData,}).then((response) => response.json()).then((data) => {
             alert(data["msg"]);
