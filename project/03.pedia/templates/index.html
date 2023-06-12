@@ -93,9 +93,38 @@
         });
 
         function listing() {
+            // 이미지, 코멘트를 받아서 화면에 카드로 만들어야 한다.
             fetch('/movie').then((res) => res.json()).then((data) => {
-                console.log(data)
-                alert(data['msg'])
+                // console.log(data)
+                // alert(data['msg'])
+                
+                let rows = data['result']
+                $('#cards-box').empty() // 시작 전 카드박스를 지워주기
+
+                // console.log(rows)
+                rows.forEach((a) => {
+                    let comment = a['comment']
+                    let title = a['title']
+                    let desc = a['desc']
+                    let image = a['image']
+                    // console.log(comment,title,desc,image)
+
+                    // 카드박스를 만들어야 한다.
+                    let temp_html = `<div class="col">
+                                        <div class="card h-100">
+                                            <img src="${image}"
+                                                class="card-img-top">
+                                            <div class="card-body">
+                                                <h5 class="card-title">${title}</h5>
+                                                <p class="card-text">${desc}</p>
+                                                <p>⭐⭐⭐</p>
+                                                <p class="mycomment">${comment}</p>
+                                            </div>
+                                        </div>
+                                    </div>`
+                    $('#cards-box').append(temp_html)
+
+                })
             })
         }
 

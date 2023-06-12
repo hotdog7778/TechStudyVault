@@ -1,3 +1,5 @@
+## 메타데이터를 이용해서 데이터 가져오는 기능 구현 연습
+
 import requests
 from bs4 import BeautifulSoup
 

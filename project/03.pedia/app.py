@@ -45,7 +45,11 @@ def movie_post():
 
 @app.route("/movie", methods=["GET"])
 def movie_get():
-    return jsonify({'msg':'GET 연결 완료!'})
+
+    # db에서 이미지,코멘트,설명을 가져와서 프론트로 전달해주자.
+    all_movies = list(db.movies.find({},{'_id':False}))
+    return jsonify({'result':all_movies})
+    # return jsonify({'msg':'GET 연결 완료!'})
 
 if __name__ == '__main__':
     app.run('0.0.0.0', port=5001, debug=True)
