@@ -53,20 +53,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Exampleauto">
-    <configuration name="ByteExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch02.sec02.ByteExample" />
-      <module name="this-is-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ch02.sec02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ScannerExample">
     <configuration name="Exampleauto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch02.sec09.Exampleauto" />
       <module name="this-is-java" />
@@ -80,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FloatDoubleExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch02.sec04.FloatDoubleExample" />
+    <configuration name="Examplefloat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch02.sec09.Examplefloat" />
       <module name="this-is-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch02.sec04.*" />
+          <option name="PATTERN" value="ch02.sec09.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +80,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch02.sec02.LongExample" />
+    <configuration name="PrimitiveAndStringConversionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch02.sec10.PrimitiveAndStringConversionExample" />
       <module name="this-is-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch02.sec02.*" />
+          <option name="PATTERN" value="ch02.sec10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScannerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch02.sec13.ScannerExample" />
+      <module name="this-is-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch02.sec13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ScannerExample" />
+        <item itemvalue="Application.PrimitiveAndStringConversionExample" />
+        <item itemvalue="Application.Examplefloat" />
         <item itemvalue="Application.Exampleauto" />
         <item itemvalue="Application.StringExample" />
-        <item itemvalue="Application.FloatDoubleExample" />
-        <item itemvalue="Application.LongExample" />
-        <item itemvalue="Application.ByteExample" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +140,8 @@
       <workItem from="1687398601815" duration="17084000" />
       <workItem from="1687443205142" duration="1000" />
       <workItem from="1687443394235" duration="151000" />
-      <workItem from="1687491174555" duration="9795000" />
+      <workItem from="1687491174555" duration="13568000" />
+      <workItem from="1687670555043" duration="5733000" />
     </task>
     <servers />
   </component>
