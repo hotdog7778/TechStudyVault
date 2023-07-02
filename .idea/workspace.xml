@@ -53,13 +53,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ScannerExample">
-    <configuration name="Exampleauto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch02.sec09.Exampleauto" />
+  <component name="RunManager" selected="Application.GugudanExample">
+    <configuration name="GugudanExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch04.sec04.GugudanExample" />
       <module name="this-is-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch02.sec09.*" />
+          <option name="PATTERN" value="ch04.sec04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Examplefloat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch02.sec09.Examplefloat" />
+    <configuration name="IfDiceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch04.sec02.IfDiceExample" />
       <module name="this-is-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch02.sec09.*" />
+          <option name="PATTERN" value="ch04.sec02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimitiveAndStringConversionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch02.sec10.PrimitiveAndStringConversionExample" />
+    <configuration name="IfNestedExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch04.sec02.IfNestedExample" />
       <module name="this-is-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch02.sec10.*" />
+          <option name="PATTERN" value="ch04.sec02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScannerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch02.sec13.ScannerExample" />
+    <configuration name="PrintFrom1To10Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch04.sec04.PrintFrom1To10Example" />
       <module name="this-is-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch02.sec13.*" />
+          <option name="PATTERN" value="ch04.sec04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch02.sec06.StringExample" />
+    <configuration name="SwitchExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch04.sec03.SwitchExample" />
       <module name="this-is-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch02.sec06.*" />
+          <option name="PATTERN" value="ch04.sec03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ScannerExample" />
-        <item itemvalue="Application.PrimitiveAndStringConversionExample" />
-        <item itemvalue="Application.Examplefloat" />
-        <item itemvalue="Application.Exampleauto" />
-        <item itemvalue="Application.StringExample" />
+        <item itemvalue="Application.GugudanExample" />
+        <item itemvalue="Application.PrintFrom1To10Example" />
+        <item itemvalue="Application.SwitchExample" />
+        <item itemvalue="Application.IfNestedExample" />
+        <item itemvalue="Application.IfDiceExample" />
       </list>
     </recent_temporary>
   </component>
@@ -142,6 +142,14 @@
       <workItem from="1687443394235" duration="151000" />
       <workItem from="1687491174555" duration="13568000" />
       <workItem from="1687670555043" duration="5733000" />
+      <workItem from="1687704109727" duration="90000" />
+      <workItem from="1687953736625" duration="598000" />
+      <workItem from="1688006467864" duration="8589000" />
+      <workItem from="1688033438075" duration="3127000" />
+      <workItem from="1688084017145" duration="132000" />
+      <workItem from="1688084449755" duration="2066000" />
+      <workItem from="1688191810626" duration="597000" />
+      <workItem from="1688302098762" duration="3000000" />
     </task>
     <servers />
   </component>
