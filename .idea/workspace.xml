@@ -53,13 +53,18 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.GugudanExample">
-    <configuration name="GugudanExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch04.sec04.GugudanExample" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ch04.sec08" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AnswerEx6">
+    <configuration name="AnswerEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch04.sec08.AnswerEx2" />
       <module name="this-is-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch04.sec04.*" />
+          <option name="PATTERN" value="ch04.sec08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IfDiceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch04.sec02.IfDiceExample" />
+    <configuration name="AnswerEx3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch04.sec08.AnswerEx3" />
       <module name="this-is-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch04.sec02.*" />
+          <option name="PATTERN" value="ch04.sec08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IfNestedExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch04.sec02.IfNestedExample" />
+    <configuration name="AnswerEx4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch04.sec08.AnswerEx4" />
       <module name="this-is-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch04.sec02.*" />
+          <option name="PATTERN" value="ch04.sec08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintFrom1To10Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch04.sec04.PrintFrom1To10Example" />
+    <configuration name="AnswerEx5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch04.sec08.AnswerEx5" />
       <module name="this-is-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch04.sec04.*" />
+          <option name="PATTERN" value="ch04.sec08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwitchExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch04.sec03.SwitchExample" />
+    <configuration name="AnswerEx6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch04.sec08.AnswerEx6" />
       <module name="this-is-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch04.sec03.*" />
+          <option name="PATTERN" value="ch04.sec08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GugudanExample" />
-        <item itemvalue="Application.PrintFrom1To10Example" />
-        <item itemvalue="Application.SwitchExample" />
-        <item itemvalue="Application.IfNestedExample" />
-        <item itemvalue="Application.IfDiceExample" />
+        <item itemvalue="Application.AnswerEx6" />
+        <item itemvalue="Application.AnswerEx5" />
+        <item itemvalue="Application.AnswerEx4" />
+        <item itemvalue="Application.AnswerEx3" />
+        <item itemvalue="Application.AnswerEx2" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +154,7 @@
       <workItem from="1688084017145" duration="132000" />
       <workItem from="1688084449755" duration="2066000" />
       <workItem from="1688191810626" duration="597000" />
-      <workItem from="1688302098762" duration="3000000" />
+      <workItem from="1688302098762" duration="10036000" />
     </task>
     <servers />
   </component>
