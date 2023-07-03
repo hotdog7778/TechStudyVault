@@ -58,13 +58,13 @@
       <recent name="ch04.sec08" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AnswerEx6">
-    <configuration name="AnswerEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch04.sec08.AnswerEx2" />
+  <component name="RunManager" selected="Application.SplitExample">
+    <configuration name="CharAtExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch05.sec05.CharAtExample" />
       <module name="this-is-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch04.sec08.*" />
+          <option name="PATTERN" value="ch05.sec05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnswerEx3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch04.sec08.AnswerEx3" />
+    <configuration name="IndexOfContainsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch05.sec05.IndexOfContainsExample" />
       <module name="this-is-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch04.sec08.*" />
+          <option name="PATTERN" value="ch05.sec05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnswerEx4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch04.sec08.AnswerEx4" />
+    <configuration name="ReplaceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch05.sec05.ReplaceExample" />
       <module name="this-is-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch04.sec08.*" />
+          <option name="PATTERN" value="ch05.sec05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnswerEx5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch04.sec08.AnswerEx5" />
+    <configuration name="SplitExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch05.sec05.SplitExample" />
       <module name="this-is-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch04.sec08.*" />
+          <option name="PATTERN" value="ch05.sec05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnswerEx6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch04.sec08.AnswerEx6" />
+    <configuration name="SubStringExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch05.sec05.SubStringExample" />
       <module name="this-is-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch04.sec08.*" />
+          <option name="PATTERN" value="ch05.sec05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AnswerEx6" />
-        <item itemvalue="Application.AnswerEx5" />
-        <item itemvalue="Application.AnswerEx4" />
-        <item itemvalue="Application.AnswerEx3" />
-        <item itemvalue="Application.AnswerEx2" />
+        <item itemvalue="Application.SplitExample" />
+        <item itemvalue="Application.IndexOfContainsExample" />
+        <item itemvalue="Application.SubStringExample" />
+        <item itemvalue="Application.ReplaceExample" />
+        <item itemvalue="Application.CharAtExample" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +154,8 @@
       <workItem from="1688084017145" duration="132000" />
       <workItem from="1688084449755" duration="2066000" />
       <workItem from="1688191810626" duration="597000" />
-      <workItem from="1688302098762" duration="10036000" />
+      <workItem from="1688302098762" duration="10149000" />
+      <workItem from="1688373192961" duration="6851000" />
     </task>
     <servers />
   </component>
