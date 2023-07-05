@@ -15,6 +15,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -35,36 +36,39 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/tgkim/Desktop/edu_develop/java/this-is-java&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/tgkim/Desktop/edu_develop/java/this-is-java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "inlay.hints",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ch05.sec12" />
+      <recent name="ch05.sec09" />
       <recent name="ch04.sec08" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SplitExample">
-    <configuration name="CharAtExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch05.sec05.CharAtExample" />
+  <component name="RunManager" selected="Application.Quiz3">
+    <configuration name="AdvanceForExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch05.sec10.AdvanceForExample" />
       <module name="this-is-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch05.sec05.*" />
+          <option name="PATTERN" value="ch05.sec10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IndexOfContainsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch05.sec05.IndexOfContainsExample" />
+    <configuration name="Quiz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch05.sec12.Quiz" />
       <module name="this-is-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch05.sec05.*" />
+          <option name="PATTERN" value="ch05.sec12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReplaceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch05.sec05.ReplaceExample" />
+    <configuration name="Quiz2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch05.sec12.Quiz2" />
       <module name="this-is-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch05.sec05.*" />
+          <option name="PATTERN" value="ch05.sec12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SplitExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch05.sec05.SplitExample" />
+    <configuration name="Quiz3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch05.sec12.Quiz3" />
       <module name="this-is-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch05.sec05.*" />
+          <option name="PATTERN" value="ch05.sec12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubStringExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch05.sec05.SubStringExample" />
+    <configuration name="WeekExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch05.sec12.WeekExample" />
       <module name="this-is-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch05.sec05.*" />
+          <option name="PATTERN" value="ch05.sec12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SplitExample" />
-        <item itemvalue="Application.IndexOfContainsExample" />
-        <item itemvalue="Application.SubStringExample" />
-        <item itemvalue="Application.ReplaceExample" />
-        <item itemvalue="Application.CharAtExample" />
+        <item itemvalue="Application.Quiz3" />
+        <item itemvalue="Application.Quiz2" />
+        <item itemvalue="Application.Quiz" />
+        <item itemvalue="Application.WeekExample" />
+        <item itemvalue="Application.AdvanceForExample" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +159,10 @@
       <workItem from="1688084449755" duration="2066000" />
       <workItem from="1688191810626" duration="597000" />
       <workItem from="1688302098762" duration="10149000" />
-      <workItem from="1688373192961" duration="6851000" />
+      <workItem from="1688373192961" duration="13636000" />
+      <workItem from="1688439588897" duration="872000" />
+      <workItem from="1688452661985" duration="11154000" />
+      <workItem from="1688567474762" duration="11977000" />
     </task>
     <servers />
   </component>
