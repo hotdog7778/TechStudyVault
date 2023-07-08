@@ -63,13 +63,13 @@
       <recent name="ch04.sec08" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Car2Example">
-    <configuration name="Car2Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch06.sec07.exam05.Car2Example" />
+  <component name="RunManager" selected="Application.B">
+    <configuration name="B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch06.sec13.exam03.package1.B" />
       <module name="this-is-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch06.sec07.exam05.*" />
+          <option name="PATTERN" value="ch06.sec13.exam03.package1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch06.sec06.exam01.CarExample" />
+    <configuration name="Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch06.sec10.exam03.Car" />
       <module name="this-is-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch06.sec06.exam01.*" />
+          <option name="PATTERN" value="ch06.sec10.exam03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PracExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch06.sec07.exam02.PracExample" />
+    <configuration name="EarthExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch06.sec11.exam02.EarthExample" />
       <module name="this-is-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch06.sec07.exam02.*" />
+          <option name="PATTERN" value="ch06.sec11.exam02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ch06.sec07.exam04.CarExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch06.sec07.exam04.CarExample" />
+    <configuration name="ExampleUse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch06.sec10.exam01.ExampleUse" />
       <module name="this-is-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch06.sec07.exam04.*" />
+          <option name="PATTERN" value="ch06.sec10.exam01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ch06.sec07.exam05.CarExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch06.sec07.exam05.CarExample" />
+    <configuration name="KoreanExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch06.sec11.exam01.KoreanExample" />
       <module name="this-is-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch06.sec07.exam05.*" />
+          <option name="PATTERN" value="ch06.sec11.exam01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Car2Example" />
-        <item itemvalue="Application.ch06.sec07.exam05.CarExample" />
-        <item itemvalue="Application.ch06.sec07.exam04.CarExample" />
-        <item itemvalue="Application.PracExample" />
-        <item itemvalue="Application.CarExample" />
+        <item itemvalue="Application.B" />
+        <item itemvalue="Application.EarthExample" />
+        <item itemvalue="Application.KoreanExample" />
+        <item itemvalue="Application.Car" />
+        <item itemvalue="Application.ExampleUse" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +165,10 @@
       <workItem from="1688452661985" duration="11154000" />
       <workItem from="1688567474762" duration="12086000" />
       <workItem from="1688615499096" duration="3374000" />
-      <workItem from="1688630753788" duration="6935000" />
+      <workItem from="1688630753788" duration="7011000" />
+      <workItem from="1688702391957" duration="2714000" />
+      <workItem from="1688742499993" duration="597000" />
+      <workItem from="1688780169222" duration="15699000" />
     </task>
     <servers />
   </component>
