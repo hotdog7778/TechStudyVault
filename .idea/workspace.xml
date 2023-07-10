@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d0bb72f7-3dee-4bcd-ac1d-221c96d53e84" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch06/sec06/exam01/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch06/sec06/exam01/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch06/sec06/exam01/CarExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch06/sec06/exam01/CarExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,13 +65,13 @@
       <recent name="ch04.sec08" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.B">
-    <configuration name="B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch06.sec13.exam03.package1.B" />
+  <component name="RunManager" selected="Application.BankApplication">
+    <configuration name="AccountExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch06.quiz.no19.AccountExample" />
       <module name="this-is-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch06.sec13.exam03.package1.*" />
+          <option name="PATTERN" value="ch06.quiz.no19.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch06.sec10.exam03.Car" />
+    <configuration name="BankApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch06.quiz.no20.BankApplication" />
       <module name="this-is-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch06.sec10.exam03.*" />
+          <option name="PATTERN" value="ch06.quiz.no20.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EarthExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch06.sec11.exam02.EarthExample" />
+    <configuration name="MemberServiceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch06.quiz.no15.MemberServiceExample" />
       <module name="this-is-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch06.sec11.exam02.*" />
+          <option name="PATTERN" value="ch06.quiz.no15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExampleUse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch06.sec10.exam01.ExampleUse" />
+    <configuration name="PrinterExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch06.quiz.no16.PrinterExample" />
       <module name="this-is-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch06.sec10.exam01.*" />
+          <option name="PATTERN" value="ch06.quiz.no16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KoreanExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch06.sec11.exam01.KoreanExample" />
+    <configuration name="ShopServiceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch06.quiz.no18.ShopServiceExample" />
       <module name="this-is-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch06.sec11.exam01.*" />
+          <option name="PATTERN" value="ch06.quiz.no18.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.B" />
-        <item itemvalue="Application.EarthExample" />
-        <item itemvalue="Application.KoreanExample" />
-        <item itemvalue="Application.Car" />
-        <item itemvalue="Application.ExampleUse" />
+        <item itemvalue="Application.BankApplication" />
+        <item itemvalue="Application.AccountExample" />
+        <item itemvalue="Application.ShopServiceExample" />
+        <item itemvalue="Application.PrinterExample" />
+        <item itemvalue="Application.MemberServiceExample" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +170,9 @@
       <workItem from="1688630753788" duration="7011000" />
       <workItem from="1688702391957" duration="2714000" />
       <workItem from="1688742499993" duration="597000" />
-      <workItem from="1688780169222" duration="15699000" />
+      <workItem from="1688780169222" duration="17638000" />
+      <workItem from="1688888253473" duration="12539000" />
+      <workItem from="1688956062515" duration="22070000" />
     </task>
     <servers />
   </component>
@@ -198,6 +202,11 @@
           <url>file://$PROJECT_DIR$/src/ch02/sec02/ByteExample.java</url>
           <line>10</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ch06/sec15/SingletonExample.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
