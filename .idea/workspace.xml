@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d0bb72f7-3dee-4bcd-ac1d-221c96d53e84" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch07/sec04/exam01/ComputerExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch07/sec04/exam01/ComputerExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -63,13 +65,13 @@
       <recent name="ch04.sec08" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ComputerExample">
-    <configuration name="AccountExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch06.quiz.no19.AccountExample" />
+  <component name="RunManager" selected="Application.InstanceofExample">
+    <configuration name="CarExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch07.sec08.exam01.CarExample" />
       <module name="this-is-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch06.quiz.no19.*" />
+          <option name="PATTERN" value="ch07.sec08.exam01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BankApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch06.quiz.no20.BankApplication" />
+    <configuration name="DriverExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch07.sec08.exam02.DriverExample" />
       <module name="this-is-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch06.quiz.no20.*" />
+          <option name="PATTERN" value="ch07.sec08.exam02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComputerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch07.sec04.exam01.ComputerExample" />
+    <configuration name="InstanceofExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch07.sec09.exam01.InstanceofExample" />
       <module name="this-is-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch07.sec04.exam01.*" />
+          <option name="PATTERN" value="ch07.sec09.exam01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShopServiceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch06.quiz.no18.ShopServiceExample" />
+    <configuration name="UpCastingExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch07.sec09.UpCastingExample" />
       <module name="this-is-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch06.quiz.no18.*" />
+          <option name="PATTERN" value="ch07.sec09.exam01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmartPhoneExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch07.sec02.SmartPhoneExample" />
+    <configuration name="WhoAreYouExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch07.sec09.WhoAreYouExample" />
       <module name="this-is-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch07.sec02.*" />
+          <option name="PATTERN" value="ch07.sec09.exam01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ComputerExample" />
-        <item itemvalue="Application.SmartPhoneExample" />
-        <item itemvalue="Application.BankApplication" />
-        <item itemvalue="Application.AccountExample" />
-        <item itemvalue="Application.ShopServiceExample" />
+        <item itemvalue="Application.InstanceofExample" />
+        <item itemvalue="Application.UpCastingExample" />
+        <item itemvalue="Application.WhoAreYouExample" />
+        <item itemvalue="Application.DriverExample" />
+        <item itemvalue="Application.CarExample" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +173,10 @@
       <workItem from="1688780169222" duration="17638000" />
       <workItem from="1688888253473" duration="12539000" />
       <workItem from="1688956062515" duration="22118000" />
-      <workItem from="1689069615675" duration="5881000" />
+      <workItem from="1689069615675" duration="6168000" />
+      <workItem from="1689133761256" duration="4984000" />
+      <workItem from="1689151215969" duration="15137000" />
+      <workItem from="1689205249130" duration="10992000" />
     </task>
     <servers />
   </component>

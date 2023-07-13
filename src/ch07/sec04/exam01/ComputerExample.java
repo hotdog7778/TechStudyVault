@@ -14,5 +14,9 @@ public class ComputerExample {
 
         Computer com = new Computer();
         System.out.println(com.areaCircle(r));
+
+        // cal 부모 , com 자식
+        // 자식객체 instanceof 부모클래스
+        boolean a = com instanceof Calculator;
     }
 }
