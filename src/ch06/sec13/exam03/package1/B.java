@@ -16,6 +16,5 @@ public class B {
         a1.method2(); // defaukt OK
 //        a1.method3(); // pri 컴파일 에러 // 다른 클래스내 호출 불가
 
-
     }
 }

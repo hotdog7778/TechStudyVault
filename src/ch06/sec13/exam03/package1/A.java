@@ -17,9 +17,15 @@ public class A {
     }
 
     // 메소드 선언
-    public void method1(){}     // pub OK
+    public void method1(){
+        System.out.println("public void method1() 실행되었음.");
+        System.out.println("private method3() 호출해보기");
+        method3();
+    }     // pub OK
     void method2(){}            // default Ok
-    private void method3(){}    // pri OK
+    private void method3(){
+        System.out.println("private void method3() 실행되었음.");
+    }    // pri OK
 
 
 
