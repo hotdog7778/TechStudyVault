@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d0bb72f7-3dee-4bcd-ac1d-221c96d53e84" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch08/quiz/exam07/DaoExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch08/quiz/exam07/DaoExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,26 +65,13 @@
       <recent name="ch04.sec08" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DaoExample">
-    <configuration name="CarExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch08.sec11.exam01.CarExample" />
+  <component name="RunManager" selected="Application.ch09.sec03.exam02.AExample">
+    <configuration name="AExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch09.sec02.exam01.AExample" />
       <module name="this-is-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch08.sec11.exam01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CastingExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch08.sec10.exam02.CastingExample" />
-      <module name="this-is-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ch08.sec10.exam02.*" />
+          <option name="PATTERN" value="ch09.sec02.exam01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DriverExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch08.sec11.exam02.DriverExample" />
+    <configuration name="ch09.sec02.exam02.AExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch09.sec02.exam02.AExample" />
       <module name="this-is-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch08.sec11.exam02.*" />
+          <option name="PATTERN" value="ch09.sec02.exam02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +105,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InstanceofExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch08.sec12.InstanceofExample" />
+    <configuration name="ch09.sec03.exam01.AExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch09.sec03.exam01.AExample" />
       <module name="this-is-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch08.sec12.*" />
+          <option name="PATTERN" value="ch09.sec03.exam01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ch09.sec03.exam02.AExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch09.sec03.exam02.AExample" />
+      <module name="this-is-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch09.sec03.exam02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ch09.sec03.exam02.AExample" />
+        <item itemvalue="Application.ch09.sec03.exam01.AExample" />
+        <item itemvalue="Application.ch09.sec02.exam02.AExample" />
+        <item itemvalue="Application.AExample" />
         <item itemvalue="Application.DaoExample" />
-        <item itemvalue="Application.InstanceofExample" />
-        <item itemvalue="Application.DriverExample" />
-        <item itemvalue="Application.CarExample" />
-        <item itemvalue="Application.CastingExample" />
       </list>
     </recent_temporary>
   </component>
