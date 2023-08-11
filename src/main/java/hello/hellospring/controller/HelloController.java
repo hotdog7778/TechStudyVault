@@ -1,5 +1,7 @@
 package hello.hellospring.controller;
 
+import hello.hellospring.service.MemberService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -8,6 +10,14 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class HelloController {
+
+    // 서비스를 의존성 주입 해준다.
+    private final MemberService memberService;
+    @Autowired
+    public HelloController(MemberService memberService) {
+        this.memberService = memberService; // 전달 받은 객체가 컨트롤러의 필드에 저장된다. // 전달받은 객체는 스프링 빈에서 전달받는다.
+    }
+
     @GetMapping("hello")
     public String hello(Model model){ // 스프링이 모델이란것을 만들어줌
         model.addAttribute("data", "haha!!"); //model 에다가 data, tgkim 이라는 키 밸류 데이터를 넣어줬음.
