@@ -15,7 +15,7 @@ public class MemberService {
     // private final MemberRepository memberRepository = new MemoryMemberRepository();
     private final MemberRepository memberRepository;
 
-    @Autowired // 스프링 빈에 등록된 MemberRepository 객체를 자동으로 사용하게 해주는 것
+    @Autowired
     public MemberService(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;
     }
