@@ -31,7 +31,6 @@ public class MemberService {
         //});
         // 위 코드를 줄일 수 있음.
         validateDuplicateMember(member);
-
         memberRepository.save(member);
         return member.getId();
     }
