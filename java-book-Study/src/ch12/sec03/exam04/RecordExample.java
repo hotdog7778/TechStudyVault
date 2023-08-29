@@ -1,8 +1,5 @@
 package ch12.sec03.exam04;
 
-import jdk.jfr.DataAmount;
-import lombok.Data;
-
 public class RecordExample {
     public static void main(String[] args) {
         Member member = new Member("1", "tgkim", "32");
