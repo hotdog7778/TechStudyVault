@@ -33,3 +33,9 @@ bin/
 ### Python ###
 __pycache__
 venv
+
+### Node.js ###
+node_modules/
+
+### TypeScript ###
+dist/
